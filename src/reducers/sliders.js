@@ -10,7 +10,7 @@ export default (state=initState, action) => {
   switch(action.type) {
     case 'SET_INPUT':
       const {target, value} = action;
-      return state.set(target, _.isNil(value) ? 0 : parseFloat(value));
+      return state.set(target, value);
     default:
       return state;
   }

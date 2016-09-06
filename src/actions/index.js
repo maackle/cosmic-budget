@@ -5,3 +5,8 @@ export const setInput = (target, value) => ({
   value
 })
 
+export const updateArtifactQty = (target, value) => ({
+  type: 'UPDATE_ARTIFACT_QTY',
+  target,
+  value
+})

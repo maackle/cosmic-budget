@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/michael/terrarium-project/cosmic-income",
+      "folder_exclude_patterns": [
+        "node_modules"
+      ]
+		}
+	]
+}
