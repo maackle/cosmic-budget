@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 
+import Slider from './Slider';
+import ControlPanel from './ControlPanel';
+
 export default class App extends Component {
   render() {
     return (
-      <h1>Hello, world.</h1>
+      <div>
+        <ControlPanel />
+        Hello, world.
+      </div>
     );
   }
 }
